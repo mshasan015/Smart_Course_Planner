@@ -87,7 +87,10 @@ def main():
     args, unknown = parser.parse_known_args()
 
     # Check for graphical display server
-    has_display = bool(os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"))
+    if sys.platform.startswith("linux"):
+        has_display = bool(os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"))
+    else:
+        has_display = True
 
     if args.cli or not has_display:
         if not has_display and not args.cli:
