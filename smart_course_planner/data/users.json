@@ -1,0 +1,12 @@
+{
+  "student": {
+    "username": "student",
+    "full_name": "Alex Rivera",
+    "student_id": "2026-CS-1042",
+    "current_semester": "Fall 2026",
+    "password_hash": "f9503713f20ec38c9a5b8be178c1455923b90d7c471891e8fa878d2c44e95d50",
+    "salt": "e57c1131972bd1362f2cea873eb64419",
+    "max_credits": 15.0,
+    "registered_credits": 0.0
+  }
+}

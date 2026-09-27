@@ -1,0 +1,129 @@
+/* Smart Course Planner - Modern Clean Theme */
+QMainWindow, QWidget {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 13px;
+}
+
+/* Navigation & Header Bar */
+#navBar {
+    background-color: #1E293B;
+    border-bottom: 1px solid #334155;
+    padding: 10px;
+}
+
+#navTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #38BDF8;
+}
+
+QPushButton {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #1D4ED8;
+}
+
+QPushButton:pressed {
+    background-color: #1E40AF;
+}
+
+QPushButton:disabled {
+    background-color: #334155;
+    color: #64748B;
+}
+
+QPushButton#navBtn {
+    background-color: transparent;
+    color: #94A3B8;
+    border-radius: 6px;
+    padding: 8px 14px;
+    text-align: left;
+}
+
+QPushButton#navBtn:hover {
+    background-color: #334155;
+    color: #FFFFFF;
+}
+
+QPushButton#navBtn:checked {
+    background-color: #0284C7;
+    color: #FFFFFF;
+}
+
+/* Cards & Containers */
+QFrame.card {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+/* Input Fields */
+QLineEdit, QComboBox, QSpinBox {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 1px solid #38BDF8;
+}
+
+/* Tables */
+QTableView, QTableWidget {
+    background-color: #1E293B;
+    alternate-background-color: #182234;
+    gridline-color: #334155;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    selection-background-color: #0284C7;
+    selection-color: #FFFFFF;
+}
+
+QHeaderView::section {
+    background-color: #0F172A;
+    color: #94A3B8;
+    padding: 8px;
+    font-weight: 600;
+    border: 1px solid #334155;
+}
+
+/* Urgent Red Banner */
+#urgentBanner {
+    background-color: #991B1B;
+    color: #FEE2E2;
+    border: 1px solid #EF4444;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* Badges and Stat Boxes */
+#statBox {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#statNumber {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38BDF8;
+}
+
+#statLabel {
+    color: #94A3B8;
+    font-size: 12px;
+}

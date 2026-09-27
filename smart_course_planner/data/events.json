@@ -1,0 +1,30 @@
+[
+  {
+    "id": "evt-01",
+    "title": "Pre-advising & Slot Selection",
+    "date": "2026-09-23",
+    "description": "Select desired sections and submit preferred schedule draft.",
+    "category": "Advising"
+  },
+  {
+    "id": "evt-02",
+    "title": "Tuition Fee Payment (1st Installment)",
+    "date": "2026-09-25",
+    "description": "Deadline to clear minimum 50% tuition before registration lock.",
+    "category": "Billing"
+  },
+  {
+    "id": "evt-03",
+    "title": "Final Course Registration",
+    "date": "2026-09-29",
+    "description": "Official confirmation of sections and advisor sign-off.",
+    "category": "Registration"
+  },
+  {
+    "id": "evt-04",
+    "title": "Fall 2026 Classes Begin",
+    "date": "2026-10-04",
+    "description": "First day of routine classes for the Fall 2026 semester.",
+    "category": "Academic"
+  }
+]
